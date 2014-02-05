@@ -9,7 +9,7 @@ class Cat():
         for line in f:
           print line,
 
-  def greet():
+  def greet(self):
     print """
    /\     /\\
   {  `---'  }
