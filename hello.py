@@ -1,2 +1,4 @@
+from cat import Cat
 name = raw_input("Please enter your name: ")
-print "Hello %s!"%name
+friendly_cat = Cat(name)
+friendly_cat.show()
